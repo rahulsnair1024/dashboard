@@ -1,0 +1,53 @@
+  <!-- carddesign row -->
+  <div fxLayout="row" fxLayoutAlign="space-between center" >
+    <!-- card1 -->
+    <mat-card>
+    <app-carddesign 
+    bg="orange"
+    icon="person"
+    desc="Students"
+    total="5000"></app-carddesign>
+    </mat-card>
+
+    <!-- card 2 -->
+    <mat-card>
+    <app-carddesign
+    bg="green"
+    icon="home"
+    desc="Institutions"
+    total="40"></app-carddesign>
+    </mat-card>
+
+    <!-- card 3 -->
+    <mat-card>
+    <app-carddesign
+    bg="red"
+    icon="dashboard"
+    desc="Dashboard"
+    total="500"></app-carddesign>
+    </mat-card>
+
+    <!-- card 4 -->
+    <mat-card>
+    <app-carddesign
+    bg="blue"
+    icon="group"
+    desc="Employees"
+    total="7000"></app-carddesign>
+    </mat-card>
+  </div>
+
+  <!-- Line chart -->
+  <div class="chart">
+    <app-area-chart></app-area-chart>
+  </div>
+
+  <!-- table and piechart-->
+  <div class="tablediv" fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="10px">
+<div fxFlex="60"> <app-table></app-table></div>    
+ <div fxFlex="40"><app-piecchart></app-piecchart></div>
+  </div>
+
+
+
+ 
